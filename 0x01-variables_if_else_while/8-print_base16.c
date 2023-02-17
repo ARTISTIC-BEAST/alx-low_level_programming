@@ -2,18 +2,29 @@
 
 /**
  * main - prints all the numbers of base 16 in lowercase
- * Return: Always 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int num;
-	char la;
+	int d;
+	char c;
 
-	for (num = o; num < 10; num++)
-		putchar((num % 10) + '0');
+	d = 0;
+	c = 'a';
 
-	for (la = 'a'; la <= 'f'; la++)
-		putchar((la % 10) + '0');
+	while
+		(d < 10)
+		{
+		putchar(d + '0');
+		d++;
+		}
+
+	while
+		(c <= 'f')
+		{
+		putchar(c);
+		c++;
+		}
 
 	putchar('\n');
 

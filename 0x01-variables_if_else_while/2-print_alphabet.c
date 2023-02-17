@@ -1,17 +1,17 @@
-#include <stdlib.h>
-#include <time.h>
+#include <stdlo.h>
+
 /**
- * main - main block
- * Description: Get a random and it with 5
- * Return: 0
+ * main - Prints the alphabet.
+ * Return: Always 0 (Successful)
  */
 int main(void)
 {
-	char c = 'a';
-	while (c <= 'z')
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz"
+	int i;
+
+	for (i = 0; i < 26; i++)
 	{
-		putchar(c);
-		c++;
+		putchar(alp[i]);
 	}
 	putchar('\n');
 	return (0);

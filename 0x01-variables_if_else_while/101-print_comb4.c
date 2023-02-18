@@ -3,7 +3,7 @@
 /**
  * main - main function
  * Descriptio: prints all possible different combinations of three digits.
- * Return: Always 0 (Successful)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -11,7 +11,7 @@ int main(void)
 
 	while (s <= e)
 	{
-		s2 = s = 1;
+		s2 = s + 1;
 		while (s2 <= e2)
 		{
 			s3 = s2 + 1;

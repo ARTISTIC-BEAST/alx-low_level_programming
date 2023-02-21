@@ -2,7 +2,7 @@
 
 /**
  * print_alphabet_x10 - Makes the alphabet X10
- * Return: Always Void (Success)
+ * Return: Void (Success)
  */
 
 void print_alphabet_x10(void)

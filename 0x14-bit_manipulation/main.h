@@ -1,18 +1,19 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-unsigned int binary_to_uint(const char *b);
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <sys/types.h>
+#include <sys/stat.h>
 
-void print_binary(unsigned long int n);
+ssize_t read_textfile(const char *filename, size_t letters);
 
-int get_bit(unsigned long int n, unsigned int index);
+int create_file(const char *filename, char *text_content);
 
-int set_bit(unsigned long int *n, unsigned int index);
-
-int clear_bit(unsigned long int *n, unsigned int index);
-
-unsigned int flip_bits(unsigned long int n, unsigned long int m);
-
-int _putchar(char c);
+int append_text_to_file(const char *filename, char *text_content);
 
 #endif
+

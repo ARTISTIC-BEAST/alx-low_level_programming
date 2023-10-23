@@ -29,15 +29,3 @@ int modulo(int a, int b) {
     }
 }
 
-int main() {
-    // This is an example main function for testing the functions.
-    int a = 10;
-    int b = 2;
-    printf("%d + %d = %d\n", a, b, add(a, b));
-    printf("%d - %d = %d\n", a, b, subtract(a, b));
-    printf("%d * %d = %d\n", a, b, multiply(a, b));
-    printf("%d / %d = %d\n", a, b, divide(a, b));
-    printf("%d %% %d = %d\n", a, b, modulo(a, b));
-    return 0;
-}
-

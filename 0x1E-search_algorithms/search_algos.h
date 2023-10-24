@@ -74,7 +74,7 @@ int linear_search(int *array, size_t size, int value);
  * This function prints the elements of 'array' within the specified range
  * [l, r] (inclusive) to the standard output.
  */
-void print_array(int *array, size_t l, size_t r);
+
 
 /**
  * binary_search_index - Perform binary search on a subarray for a value.
